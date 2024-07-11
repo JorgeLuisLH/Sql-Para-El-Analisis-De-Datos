@@ -18,7 +18,7 @@ Aprende que es sql, como escribir consultas,agregaciones,utilizar funciones, mej
 * SELECT (Consultas basicas, WHERE,ORDER BY,LIMIT)
 * UPDATE
 * DELETE
-## Tema 3: Consultas Intermedias
+## [Tema 3: Consultas Intermedias](Tema_3.md)
 1. Funciones de Agregación
 * COUNT, SUM, AVG, MIN, MAX
 * Agrupación de datos con GROUP BY
