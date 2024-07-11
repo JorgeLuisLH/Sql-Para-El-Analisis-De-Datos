@@ -159,7 +159,7 @@ WHERE sub.Salario_Promedio > 30000;
 ```
 ![subquery_from](/imagenes/subquery_from.png)
 
-> La subconsulta dentro el WHERE calcula el salario promedio para cada departamento y la consulta principal selecciona a los empleados cuyo salario es mayor que este promedio.
+>  La subconsulta en el FROM crea una tabla derivada con el salario promedio por departamento. La consulta principal filtra los departamentos con un salario promedio mayor a 30,000.
 
 
 [`Atras`](/Tema_2.md)|[`Siguiente`](/Tema_4.md)
