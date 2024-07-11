@@ -33,7 +33,7 @@ Una tabla es una colección de datos organizados en filas y columnas. Cada tabla
 Filas (Registros): Cada fila en una tabla representa una entrada única de datos.
 Columnas (Campos): Cada columna en una tabla representa una categoría de datos. Cada campo tiene un nombre y un tipo de dato asociado.
 
-![Tabla](/imagenes/tabla.jpg)
+![Tabla](/imagenes/tabla.png)
 > Ejemplo: en color azul tenemos las filas y en color verde las columnas
 
 **Llave Primaria (Primary Key):** Es un campo (o combinación de campos) que identifica de manera única cada registro en una tabla.

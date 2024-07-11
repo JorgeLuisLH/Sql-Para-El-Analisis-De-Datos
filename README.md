@@ -25,7 +25,6 @@ Aprende que es sql, como escribir consultas,agregaciones,utilizar funciones, mej
 * Filtrado de grupos con HAVING
 2. Uniones de Tablas
 * Tipos de uniones: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
-* Uso de alias
 3. Subconsultas
 * Subconsultas en SELECT
 * Subconsultas en WHERE

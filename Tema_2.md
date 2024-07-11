@@ -2,7 +2,7 @@
 
 ### 1. Creacion y Manipulacion de tablas
 
-#### 1. Sentencias CREATE TABLE, ALTER TABLE, DROP TABLE:**
+#### 1. Sentencias CREATE TABLE, ALTER TABLE, DROP TABLE:
 * **CREATE TABLE:**
 La sentencia CREATE TABLE se utiliza para crear una nueva tabla en la base de datos.
 ```sql
@@ -183,4 +183,4 @@ DELETE FROM EMPLEADOS WHERE empleado_id = 1;
 * Ordenar resultados en diferentes órdenes.
 * Limitar la cantidad de resultados devueltos.
 
-[`Atras`](/README.md)
+[`Atras`](/Tema_1.md)|[`Siguiente`](/Tema_2.md)

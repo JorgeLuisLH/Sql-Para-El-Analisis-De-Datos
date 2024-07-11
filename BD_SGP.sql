@@ -15,6 +15,7 @@ CREATE TABLE EMPLEADOS (
     email VARCHAR(100) UNIQUE NOT NULL,
     telefono VARCHAR(20),
     departamento_id INT,
+    salario decimal(7,2),
     FOREIGN KEY (departamento_id) REFERENCES DEPARTAMENTOS(departamento_id)
 );
 
@@ -68,17 +69,17 @@ INSERT INTO Departamentos (nombre) VALUES
 ('Legal'),
 ('Administración');
 
-INSERT INTO Empleados (nombre, apellido, email, telefono, departamento_id) VALUES
-('Juan', 'Pérez', 'juan.perez@empresa.com', '555-1234', 1),
-('Ana', 'García', 'ana.garcia@empresa.com', '555-5678', 2),
-('Luis', 'Martínez', 'luis.martinez@empresa.com', '555-8765', 1),
-('María', 'Rodríguez', 'maria.rodriguez@empresa.com', '555-4321', 3),
-('Pedro', 'López', 'pedro.lopez@empresa.com', '555-6789', 4)
-('José', 'González', 'jose.gonzalez@empresa.com', '555-0006', 5),
-('Laura', 'Sánchez', 'laura.sanchez@empresa.com', '555-0007', 6),
-('Miguel', 'Ramírez', 'miguel.ramirez@empresa.com', '555-0008', 7),
-('Lucía', 'Torres', 'lucia.torres@empresa.com', '555-0009', 8),
-('Javier', 'Díaz', 'javier.diaz@empresa.com', '555-0010', 9);
+INSERT INTO Empleados (nombre, apellido, email, telefono, departamento_id, salario) VALUES
+('Juan', 'Pérez', 'juan.perez@empresa.com', '555-1234', 1, 200000),
+('Ana', 'García', 'ana.garcia@empresa.com', '555-5678', 2,25000),
+('Luis', 'Martínez', 'luis.martinez@empresa.com', '555-8765', 1,30000),
+('María', 'Rodríguez', 'maria.rodriguez@empresa.com', '555-4321', 3,25000),
+('Pedro', 'López', 'pedro.lopez@empresa.com', '555-6789', 4,30000),
+('José', 'González', 'jose.gonzalez@empresa.com', '555-0006', 5,35000),
+('Laura', 'Sánchez', 'laura.sanchez@empresa.com', '555-0007', 6,40000),
+('Miguel', 'Ramírez', 'miguel.ramirez@empresa.com', '555-0008', 7,25000),
+('Lucía', 'Torres', 'lucia.torres@empresa.com', '555-0009', 8,60000),
+('Javier', 'Díaz', 'javier.diaz@empresa.com', '555-0010', 9,30000);
 
 INSERT INTO Proyectos (nombre, descripcion, fecha_inicio, fecha_fin, gerente_proyecto_id) VALUES
 ('Desarrollo Web', 'Proyecto de desarrollo de una aplicación web.', '2024-01-01', '2024-06-30', 1),
